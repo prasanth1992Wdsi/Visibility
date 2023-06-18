@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<listeners>
+<listener class-name="testScripts.TestNGlisteners"></listener>
+</listeners>
+  <test name="Test">
+    <classes>
+    <class name="testScripts.BodyShopLiveIssues">
+    <methods>
+				<include name="BodyShopFlow3" />
+			</methods>
+    </class>
+ <!-- <class name="testScripts.BodyShopLiveIssues"/>
+  <class name="testScripts.JCHLiveIssues"/>
+    <class name="testScripts.TVSLiveIssues"/>
+        <class name="testScripts.HZLLiveIssues"/>
+    
+   -->
+ 
+  
+ 
+<!-- <class name="testScripts.ScantoBoxLPN"/>
+<class name="testScripts.ScantoBoxPartialPicking"/>
+<class name="testScripts.ScantoBoxPicking"/>
+<class name="testScripts.ScantoCart"/>
+<class name="testScripts.Inbound_OrderForm"/>
+<class name="testScripts.Outbound_OrderForm"/>
+<class name="testScripts.ScanToBox"/>
+<class name="testScripts.ShortQtyBinning"/>
+<class name="testScripts.ExcessQtyBinning"/>
+<class name="testScripts.Cancellation_Inbound"/>
+<class name="testScripts.Cancellation_Outbound"/>
+<class name="testScripts.LabelReprint"/>
+<class name="testScripts.ScantoBoxLPN_FS"/>
+<class name="testScripts.ScantoBoxPartialPicking_FS"/>
+<class name="testScripts.ScantoBoxPicking_FS"/> -->
+
+         
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="testScripts.smoke"/>
+      <class name="testScripts.Inbound_OrderForm"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="testScripts.Inbound_OrderForm">
+        <methods>
+          <include name="logOut"/>
+          <include name="loginAsAdmin"/>
+        </methods>
+      </class> <!-- testScripts.Inbound_OrderForm -->
+      <class name="testScripts.smoke">
+        <methods>
+          <include name="dispatch"/>
+          <include name="pickgeneration"/>
+          <include name="podGeneration"/>
+          <include name="logOut"/>
+          <include name="assignPOD"/>
+          <include name="pickerassign"/>
+          <include name="binning"/>
+          <include name="consolidation"/>
+          <include name="binnerAssignment"/>
+          <include name="loginAsAdmin"/>
+          <include name="finishUpload"/>
+          <include name="pickingScreen"/>
+        </methods>
+      </class> <!-- testScripts.smoke -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

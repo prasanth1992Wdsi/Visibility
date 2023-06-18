@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<listeners>
+<listener class-name="testScripts.TestNGlisteners"></listener>
+</listeners>
+  <test name="Test">
+    <classes>
+    
+<class name="testScripts.SmokeFIFO"/>
+<class name="testScripts.ExcessQtyBinning"/>
+<class name="testScripts.ShortQtyBinning"/>
+<class name="testScripts.ScanToBox"/>
+<class name="testScripts.Inbound_OrderForm"/>
+<class name="testScripts.Outboundscenarios"/>
+<class name="testScripts.Cancellation_Inbound"/>
+<class name="testScripts.Cancellation_Outbound"/>
+<class name="testScripts.SmokeApi"/>
+        
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

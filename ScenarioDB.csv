@@ -1,0 +1,138 @@
+"","","","","","",""
+"S No","Scenario","StockAvailabilty","barath","ORDERSMASTER","warehouseMatInbound","warehouseMatOutbound"
+"","Binning","","","","",""
+"1","After partial quantity binned for NVNU","quantity","status
+binnedqty
+quantity","","status
+quantity",""
+"2","After binning completed for NVNU","","","","",""
+"3","After partial quantity binned for NVNU through box","","","","",""
+"4","After binning completed for NVNU through box","","","","",""
+"5","After partial quantity binned for NVNU","","","","",""
+"6","After binning completed for NVNU","","","","",""
+"7","After partial quantity binned for NVNU through box","","","","",""
+"8","After binning completed for NVNU through box","","","","",""
+"9","After binning completed for V","","","","",""
+"10","After binning completed for V through box","","","","",""
+"11","Before excess approved for NVNU","","","","",""
+"12","After  excess approved for NVNU","","","","",""
+"13","Before excess approved for V","","","","",""
+"14","After  excess approved for V","","","","",""
+"15","Before Short approved for NVNU","","","","",""
+"16","After  short approved for NVNU","","","","",""
+"17","Before short approved for V","","","","",""
+"18","After  short approved for V","","","","",""
+"19","After partial quantity cancelled","","","","",""
+"20","After LPN wise scan for NV","","","","",""
+"21","After LPN wise scan for NV with serial","","","","",""
+"22","After LPN scan in pallet","","","","",""
+"23","After LPN scan in box","","","","",""
+"24","Direct short after approval V","","","","",""
+"25","Direct short after approval NV","","","","",""
+"26","Direct short after approval NVNU","","","","",""
+"27","After binning for consignee V","","","","",""
+"28","After binning for consignee NV","","","","",""
+"29","After binning for consignee  NVNU","","","","",""
+"","Picking","","","","",""
+"30","PARTIAL PICKING SCENARIO: OUTBOUND ORDER FOR BATCH V","QUANTITY
+PICKED QUANTITY
+LOCKED QUATINTY","STATUS CODE
+PACKED QUANTITY
+PICKED QUANTITY
+SHORT QUANTITY","STATUS CODE","STATUS CODE
+PICKABLE QUANTITY
+PICKED QUANTITY
+RELAESED QUANTITY
+SHORT QUANTITY","STATUS CODE=STCM-18
+PICKABLE QUANTITY
+PICKED QUANTITY
+RELAESED QUANTITY
+SHORT QUANTITY"
+"31","PARTIAL PICKING SCENARIO: OUTBOUND ORDER FOR BATCH NV","","","","",""
+"32","PARTIAL PICKING SCENARIO: OUTBOUND ORDER FOR BATCH NVNU","","","","",""
+"33","GIVING SHORT PICK IN PICKING
+ORDER CREATED FOR SERIAL NUMBER V","","","","",""
+"34","GIVING SHORT PICK IN PICKING
+ORDER CREATED FOR SERIAL NUMBER NV","","","","",""
+"35","GIVING SHORT PICK IN PICKING
+ORDER CREATED FOR SERIAL NUMBER NVNU","","","","",""
+"36","AFTER SHORT PICK APPROVAL V","","","","",""
+"37","AFTER SHORT PICK APPROVAL NV","","","","",""
+"38","AFTER SHORT PICK APPROVAL NVNU","","","","",""
+"39","ORDER CREATED FIFO NVNU PART RANDOM PICK STATUS","","","","",""
+"40","ORDER CREATED FIFO NVNU PART RANDOM PICK STATUS
+WAITING FOR APPROVAL ","","","","",""
+"41","ORDER CREATED FIFO NVNU PART RANDOM PICK STATUS
+APPROVED AND PICKING COMPLETED","","","","",""
+"","Bin to Bin transfer","","","","",""
+"42","Good to Bad LPN trasfer -->V part","Quantity","","","Quantity
+Status",""
+"43","Good to Bad LPN trasfer -->NV part","","","","",""
+"44","Good to Bad LPN trasfer -->NVNU part","","","","",""
+"45","Bin in good box and transfer LPN to defective box V","","","","",""
+"46","Bin in good box and transfer LPN to defective box NV","","","","",""
+"47","Bin in good box and transfer LPN to defective box NVNU","","","","",""
+"","","","","","",""
+"","Pre Pick Cancellation","","","","",""
+"48","After Order level Cancellation
+V
+NV
+NVNU","Quantity
+Picked Quantity
+Locked Quantity","Picked Quantity
+Packed Quantity
+Cancelled Quantity
+StausCode","StausCode","Requested Quantity
+Picked Quantity
+StausCode","Picked Quantity
+Released Quantity
+StausCode"
+"49","After NV Partial Pick and Partial Quantity level Cancellation","","","","",""
+"50","Upload all Part and  do Part Level Cancellation for NVNU ","","","","",""
+"51","After NVNU Partial Pick and Partial Quantity level Cancellation","","","","",""
+"","","","","","",""
+"","Post Pick Cancellation","","","","",""
+"52","After Order level Cancellation
+V
+NV
+NVNU","Quantity
+Picked Quantity
+Locked Quantity","Picked Quantity
+Packed Quantity
+Cancelled Quantity
+StausCode","StausCode","Requested Quantity
+Picked Quantity
+StausCode","Picked Quantity
+Released Quantity
+StausCode"
+"53","Part level Cancellation - NV","","","","",""
+"54","Partial LPN level Cancellation for NV part","","","","",""
+"55","LPN level Cancellation for V part","","","","",""
+"56","Partial Quantity level Cancellation- NVNU","","","","",""
+"","consignee stock transfer","","","","",""
+"57","After consignee request ","available
+locked quantity","","","",""
+"58","After bin transfer","","","","",""
+"59","After consignee request  different  stock type","","","","",""
+"60","After bin transfer different stock type","","","","",""
+"","SO creation","","","","",""
+"61","SO UPLOAD FOR FIFO PICKTYPE NEWDELPOINT DT:
+TEMP SALES HOLD ORDER SCENARIO:
+","LOCKED QUANTITY","STATUS CODE
+QUANTITY
+SHORT  QUANTITY
+TEMPSHORT QUANTITY
+BACKORDER QUANTITY","STATUS CODE","STATUS CODE
+PICKABLE QUANTITY",""
+"62","SO UPLOAD FIFO PICKTYPE NEWDELPOINT DELIVERY TYPE:
+TEMP SALES HOLD WITH PART SHORTAGE SCENARIO:
+","","","","",""
+"63","SO UPLOAD FIFO PICKTYPE NEWDELPOINT DELIVERY TYPE","","","","",""
+"64","SO UPLOAD FIFOSUGGESTED ENCUSTOMER TYPE","","","","",""
+"65","SO UPLOAD FOR BATCH  ENDCUSTOMER NVNU PART : TEMP SALES","","","","",""
+"66","BACK ORDER CREATION SO UPLOAD","","","","",""
+"67","SO UPLOAD FOR BATCH PICTYPE NEWDELPOINT TYPE","","","","",""
+"68","SO UPLOAD FOR SERIAL NUMBER PICKTYPE NEWDELPOINT(DT)
+NVPART WITH DIFFERENT SERIAL NUMBERS ","","","","",""
+"69","SO UPLOAD BATCH PICKTYPE NEWDELPOINT DT ( NV PART WITH DIFFERENT BATCH)
+","","","","",""

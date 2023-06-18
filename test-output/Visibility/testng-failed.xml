@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Visibility]">
+  <listeners>
+    <listener class-name="testScripts.TestNGlisteners"/>
+  </listeners>
+  <test thread-count="5" name="Long_regression(failed)">
+    <classes>
+      <class name="testScripts.Site_Site">
+        <methods>
+          <include name="before"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="fifosugPicktypeInb1"/>
+        </methods>
+      </class> <!-- testScripts.Site_Site -->
+      <class name="testScripts.ScantoBox_CartLabel_Dispatch">
+        <methods>
+          <include name="before"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="scan_to_box_cart_picking"/>
+        </methods>
+      </class> <!-- testScripts.ScantoBox_CartLabel_Dispatch -->
+      <class name="testScripts.ReturnOrder">
+        <methods>
+          <include name="before"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="returnOrder_Inbound"/>
+        </methods>
+      </class> <!-- testScripts.ReturnOrder -->
+    </classes>
+  </test> <!-- Long_regression(failed) -->
+</suite> <!-- Failed suite [Visibility] -->

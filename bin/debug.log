@@ -1,0 +1,12 @@
+[0706/181340.253:ERROR:file_io_win.cc(161)] CreateFile C:\Users\Admin\AppData\Local\Temp\scoped_dir11008_13953\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0706/181340.255:ERROR:file_io_win.cc(170)] CreateFile C:\Users\Admin\AppData\Local\Temp\scoped_dir11008_13953\Crashpad\reports\85c7a7f6-619a-4aec-80ea-869f9c174a84.dmp: The system cannot find the path specified. (0x3)
+[0706/181340.255:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0708/230236.353:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0708/230236.475:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0708/230236.475:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0710/191151.377:ERROR:file_io_win.cc(161)] CreateFile C:\Users\Admin\AppData\Local\Temp\scoped_dir7332_21481\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0710/191151.396:ERROR:file_io_win.cc(170)] CreateFile C:\Users\Admin\AppData\Local\Temp\scoped_dir7332_21481\Crashpad\reports\7c790f6f-03db-4516-ab42-f0af2f7d9dee.dmp: The system cannot find the path specified. (0x3)
+[0710/191151.396:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0710/194110.746:ERROR:file_io_win.cc(161)] CreateFile C:\Users\Admin\AppData\Local\Temp\scoped_dir2256_19893\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0710/194110.748:ERROR:file_io_win.cc(170)] CreateFile C:\Users\Admin\AppData\Local\Temp\scoped_dir2256_19893\Crashpad\reports\42229a4b-f8a4-4654-bb24-0f2edc8bd218.dmp: The system cannot find the path specified. (0x3)
+[0710/194110.748:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed

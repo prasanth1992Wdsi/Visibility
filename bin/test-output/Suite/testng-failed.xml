@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="testScripts.TestNGlisteners"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="testScripts.SmokeFIFO"/>
+      <class name="testScripts.ExcessQtyBinning"/>
+      <class name="testScripts.ShortQtyBinning"/>
+      <class name="testScripts.ScanToBox"/>
+      <class name="testScripts.Inbound_OrderForm"/>
+      <class name="testScripts.Outboundscenarios"/>
+      <class name="testScripts.Cancellation_Inbound"/>
+      <class name="testScripts.Cancellation_Outbound"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="testScripts.Cancellation_Inbound">
+        <methods>
+          <include name="INB_Cancellation_AfterBinnerAssignment"/>
+          <include name="INB_Cancellation_DuringBinning"/>
+          <include name="INB_Cancellation_DockinScreen"/>
+          <include name="loginAsAdmin"/>
+        </methods>
+      </class> <!-- testScripts.Cancellation_Inbound -->
+      <class name="testScripts.SmokeFIFO">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginAsAdmin"/>
+        </methods>
+      </class> <!-- testScripts.SmokeFIFO -->
+      <class name="testScripts.Cancellation_Outbound">
+        <methods>
+          <include name="OUT_Cancellation_DuringPartialconsolidation"/>
+          <include name="OUT_Cancellation_Orderisin_PickerDashboardScreen"/>
+          <include name="OUT_Cancellation_atOrderisinConsolidationDashboard"/>
+          <include name="OUT_Cancellation_atOrderisinDispatchDashboard"/>
+          <include name="OUT_Cancellation_DuringPartialpicking"/>
+          <include name="OUT_Cancellation_DuringPartialDispatch"/>
+          <include name="loginAsAdmin"/>
+          <include name="OUT_Cancellation_pickgenerationScreen"/>
+        </methods>
+      </class> <!-- testScripts.Cancellation_Outbound -->
+      <class name="testScripts.Outboundscenarios">
+        <methods>
+          <include name="pickgeneration"/>
+          <include name="shortpick"/>
+          <include name="optimization_skip"/>
+          <include name="outboundCREATEREQUEST1"/>
+          <include name="loginAsAdmin"/>
+          <include name="pickingScreen"/>
+          <include name="AlternativeBin_Picking"/>
+          <include name="dispatch"/>
+          <include name="consolidation"/>
+          <include name="pickerassign"/>
+          <include name="Random_pick"/>
+          <include name="dispatchOrderform"/>
+          <include name="pickerassignment"/>
+        </methods>
+      </class> <!-- testScripts.Outboundscenarios -->
+      <class name="testScripts.Inbound_OrderForm">
+        <methods>
+          <include name="loginAsAdmin"/>
+        </methods>
+      </class> <!-- testScripts.Inbound_OrderForm -->
+      <class name="testScripts.ShortQtyBinning">
+        <methods>
+          <include name="pickingScreen"/>
+          <include name="finishUpload"/>
+          <include name="binnerAssignment"/>
+          <include name="captureParentDetails"/>
+          <include name="pickgeneration"/>
+          <include name="loginAsAdmin"/>
+          <include name="consolidation"/>
+          <include name="pickerassign"/>
+          <include name="vehicleCreatioN"/>
+          <include name="binning"/>
+          <include name="assignPOD"/>
+          <include name="dispatch"/>
+          <include name="podGeneration"/>
+        </methods>
+      </class> <!-- testScripts.ShortQtyBinning -->
+      <class name="testScripts.ScanToBox">
+        <methods>
+          <include name="finishUpload"/>
+          <include name="dispatch"/>
+          <include name="consolidation"/>
+          <include name="pickerassign"/>
+          <include name="vehicleCreatioN"/>
+          <include name="podGeneration1"/>
+          <include name="loginAsAdmin"/>
+          <include name="binning"/>
+          <include name="captureParentDetails"/>
+          <include name="printScanToBoxlabel"/>
+          <include name="pickgeneration"/>
+          <include name="pickingScreen"/>
+          <include name="assignPOD"/>
+          <include name="binnerAssignment"/>
+        </methods>
+      </class> <!-- testScripts.ScanToBox -->
+      <class name="testScripts.ExcessQtyBinning">
+        <methods>
+          <include name="captureParentDetails"/>
+          <include name="pickgeneration"/>
+          <include name="pickerassign"/>
+          <include name="podGeneration"/>
+          <include name="assignPOD"/>
+          <include name="finishUpload"/>
+          <include name="loginAsAdmin"/>
+          <include name="binnerAssignment"/>
+          <include name="dispatch"/>
+          <include name="pickingScreen"/>
+          <include name="vehicleCreatioN"/>
+          <include name="binning"/>
+          <include name="consolidation"/>
+        </methods>
+      </class> <!-- testScripts.ExcessQtyBinning -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
