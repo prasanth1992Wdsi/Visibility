@@ -28,7 +28,7 @@ public class BackOrder extends ProjectSpecificFunctions {
 	int availableV;
 	int availableNV;
 	int availableNVNU;
-
+    int availableNVNUq;
 	String VONfirst="";
 
 	@Test(priority=0)
